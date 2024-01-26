@@ -11,7 +11,7 @@
         place-content-center grid border-2 border-black
     }
     .card{
-        @apply text-3xl size-40 bg-white hover:bg-slate-200 font-semibold 
+        @apply text-2xl size-40 bg-white hover:bg-slate-200 font-semibold 
         rounded-lg place-content-center grid border-2 border-black
     }
 }
