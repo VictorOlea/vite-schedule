@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .column {
+        @apply flex flex-col space-y-2
+    }
+    .card-header{
+        @apply text-2xl w-40 h-min bg-white font-semibold rounded-lg 
+        place-content-center grid border-2 border-black
+    }
+    .card{
+        @apply text-3xl size-40 bg-white hover:bg-slate-200 font-semibold 
+        rounded-lg place-content-center grid border-2 border-black
+    }
+}
