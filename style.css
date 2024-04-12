@@ -3,15 +3,19 @@
 @tailwind utilities;
 
 @layer components {
-    .column {
-        @apply flex flex-col space-y-2
-    }
-    .card-header{
-        @apply text-2xl w-40 h-min bg-white font-semibold rounded-lg 
-        place-content-center grid border-2 border-black
-    }
-    .card{
-        @apply text-2xl size-40 bg-white hover:bg-slate-200 font-semibold 
-        rounded-lg text-center border-2 text-ellipsis border-black
-    }
+  .column {
+    @apply flex flex-col space-y-2;
+  }
+  .card-header {
+    @apply text-2xl w-40 h-min bg-white font-semibold rounded-lg 
+        place-content-center grid border-2 border-black;
+  }
+  .card {
+    @apply text-2xl size-40 bg-white hover:bg-slate-200 font-semibold 
+        rounded-lg text-center border-2 text-ellipsis border-black;
+  }
+  .card-aprove {
+    @apply text-2xl size-40 bg-purple-500 hover:bg-purple-900 font-semibold 
+        rounded-lg text-center border-2 text-ellipsis border-black;
+  }
 }
