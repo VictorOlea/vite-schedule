@@ -1,3 +1,3 @@
 # Horario Vite - Tailwind
 
-![horario](./public/horario.jpg)
+![horario](./public/schedule.jpg)
